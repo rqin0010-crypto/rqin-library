@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+#app {
+  width: 100%;
+  padding: 24px;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}

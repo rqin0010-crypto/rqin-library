@@ -44,24 +44,34 @@
         </li>
 
         <li class="nav-item">
-  <RouterLink
-    to="/FireLogout"
-    class="nav-link"
-    active-class="active"
-  >
-    Firebase Logout
-  </RouterLink>
-</li>
+          <RouterLink
+            to="/FireLogout"
+            class="nav-link"
+            active-class="active"
+          >
+            Firebase Logout
+          </RouterLink>
+        </li>
 
-<li class="nav-item">
-  <RouterLink
-    to="/addbook"
-    class="nav-link"
-    active-class="active"
-  >
-    Add Book
-  </RouterLink>
-</li>
+        <li class="nav-item">
+          <RouterLink
+            to="/addbook"
+            class="nav-link"
+            active-class="active"
+          >
+            Add Book
+          </RouterLink>
+        </li>
+
+        <li class="nav-item">
+          <RouterLink
+            to="/getbookcount"
+            class="nav-link"
+            active-class="active"
+          >
+            Get Book Count
+          </RouterLink>
+        </li>
 
       </ul>
     </header>

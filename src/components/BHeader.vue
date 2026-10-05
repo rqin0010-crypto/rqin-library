@@ -73,6 +73,35 @@
           </RouterLink>
         </li>
 
+        <li class="nav-item">
+          <RouterLink
+            to="/WeatherCheck"
+            class="nav-link"
+            active-class="active"
+          >
+            Get Weather
+          </RouterLink>
+        </li>
+
+        <li class="nav-item">
+          <RouterLink
+            to="/CountBookAPI"
+            class="nav-link"
+            active-class="active"
+          >
+            Count Book API
+          </RouterLink>
+        </li>
+
+        <li class="nav-item">
+          <RouterLink
+            to="/GetAllBookAPI"
+            class="nav-link"
+            active-class="active"
+          >
+            Get All Book API
+          </RouterLink>
+        </li>
       </ul>
     </header>
   </div>
